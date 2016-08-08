@@ -5,7 +5,7 @@
     </head>
     <body>
     <div>
-        <form  method="post" action="sever.php">
+        <form  method="post" action="sever.php/btn()">
             <table style="text-align:center;margin:0 auto;">
                 <tr>
                     <td>
