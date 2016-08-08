@@ -40,7 +40,7 @@ if(isset($_POST["Import"])){
         <form  align="center"  method="post" action="Import.php">
             <input type="text" name="name"/>使用者ID
             <br>
-            <input type="text" name="moneyin"/>轉入金額
+            <input type="number" min="0" step="1" name="moneyin"/>轉入金額
             <br>
             <input type="submit" name="Import" value="轉入"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
