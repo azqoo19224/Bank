@@ -1,7 +1,7 @@
 <?php
 require_once 'DB.php';
 
-    DB::pdoConnect();
+    
   
 
     if(isset($_POST["btnImport"])){
