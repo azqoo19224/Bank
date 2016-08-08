@@ -14,8 +14,6 @@ if(isset($_POST["Import"])){
     $insert->execute();
     echo "<script> alert('成功轉入".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
 
-    // sleep(5);
-    // header("location:bank.php");
 
 }
 
