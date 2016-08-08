@@ -10,6 +10,8 @@ require_once 'DB.php';
     }
     
     if(isset($_POST["btnExport"])){
+         header("location:/BankProject/Export.php");
+        exit();
         
     }
     
