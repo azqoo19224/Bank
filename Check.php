@@ -8,6 +8,7 @@ if(isset($_POST["Check"])){
     $select->execute();
     $balance =  $select->fetch(PDO::FETCH_ASSOC);
 }
+
 ?>
 <!DOCTYPE html>
 <html>
