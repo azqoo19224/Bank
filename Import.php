@@ -1,6 +1,6 @@
 <?php
 require_once 'DB.php';
- DB::pdoConnect();
+DB::pdoConnect();
 if(isset($_POST["Import"])){
   
     $select = DB::$db->prepare("SELECT `balance` FROM `user` WHERE `name` = ?");
@@ -12,9 +12,10 @@ if(isset($_POST["Import"])){
     $insert->bindParam(1,$money);
     $insert->bindParam(2,$_POST["name"]);
     $insert->execute();
-    
-    sleep(5);
-    header("location:bank.php");
+    echo "<script> alert('成功轉入".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
+
+    // sleep(5);
+    // header("location:bank.php");
 
 }
 
@@ -25,6 +26,7 @@ if(isset($_POST["Import"])){
 <html>
     <head>
         <meta charset="UTF-8">
+        
     </head>
     <body>
         <form  align="center"  method="post" action="Import.php">
