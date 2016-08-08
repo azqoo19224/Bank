@@ -5,8 +5,8 @@ require_once 'DB.php';
   
 
     if(isset($_POST["btnImport"])){
-        // $a=DB::$db->prepare("INSERT INTO `user` (`id`) VALUES (1) ");
-        // $a->execute();
+        header("location:/BankProject/Import.php");
+        exit();
     }
     
     if(isset($_POST["btnExport"])){
