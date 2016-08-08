@@ -3,14 +3,14 @@ require_once 'DB.php';
 DB::pdoConnect();
 if(isset($_POST["Import"])){
   
-    $select = DB::$db->prepare("SELECT `balance` FROM `user` WHERE `name` = ?");
-    $select->bindParam(1,$_POST["name"]);
+    $select = DB::$db->prepare("SELECT `balance` FROM `user` WHERE `name` = :name");
+    $select->bindParam(":name",$_POST["name"]);
     $select->execute();
     $balance =  $select->fetch(PDO::FETCH_ASSOC);
-    $insert = DB::$db->prepare("UPDATE `user` SET `balance` = ? WHERE `name` = ?");
+    $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
     $money=$balance["balance"]+$_POST["moneyin"];
-    $insert->bindParam(1,$money);
-    $insert->bindParam(2,$_POST["name"]);
+    $insert->bindParam(":money",$money);
+    $insert->bindParam(":name",$_POST["name"]);
     $insert->execute();
     echo "<script> alert('成功轉入".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
 
