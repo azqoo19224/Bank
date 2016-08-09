@@ -3,18 +3,18 @@ require_once 'DB.php';
 
 DB::pdoConnect();
 
-if ( isset($_POST["Import"])) {
+if (isset($_POST["btnImport"])) {
     try {
         DB::$db->beginTransaction();
 	    
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
-        $balance =  $select->fetch(PDO::FETCH_ASSOC);
+        $balance = $select->fetch(PDO::FETCH_ASSOC);
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
         //判斷餘額
         if($balance["balance"] >= $_POST["moneyin"]) {
-            $money = $balance["balance"] - $_POST["moneyin"];
+            $money = $balance["balance"] - $_POST["moneyOut"];
             $insert->bindParam(":money", $money);
             $insert->bindParam(":name", $_POST["name"]);
             $insert->execute();
@@ -54,9 +54,9 @@ if ( isset($_POST["Import"])) {
         <form  align="center"  method="post" action="Export.php">
             <input type="text" name="name"/>使用者ID
             <br>
-            <input type="number" min="0" step="1" name="moneyin"/>轉出金額
+            <input type="number" min="0" step="1" name="moneyOut"/>轉出金額
             <br>
-            <input type="submit" name="Import" value="轉出"/>
+            <input type="submit" name="btnImport" value="轉出"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
     </body>

@@ -3,7 +3,7 @@ require_once 'DB.php';
 
 DB::pdoConnect();
 
-if ( isset($_POST["Import"])) {
+if (isset($_POST["btnImport"])) {
     try {
 	    DB::$db->beginTransaction();
 	    
@@ -14,7 +14,7 @@ if ( isset($_POST["Import"])) {
         //insert balance
         sleep(5);
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
-        $money = $balance["balance"] + $_POST["moneyin"];
+        $money = $balance["balance"] + $_POST["moneyIn"];
         $insert->bindParam(":money", $money);
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
@@ -26,7 +26,7 @@ if ( isset($_POST["Import"])) {
         $insertData->bindParam(":project", $project);
         $insertData->execute();
 
-        echo "<script> alert('成功轉入".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
+        echo "<script> alert('成功轉入".$_POST["moneyIn"]."元'); location.href='bank.php'</script>";
 
         DB::$db->commit();
 	    DB::$db = NULL;
@@ -49,9 +49,9 @@ if ( isset($_POST["Import"])) {
         <form  align="center"  method="post" action="Import.php">
             <input type="text" name="name"/>使用者ID
             <br>
-            <input type="number" min="0" step="1" name="moneyin"/>轉入金額
+            <input type="number" min="0" step="1" name="moneyIn"/>轉入金額
             <br>
-            <input type="submit" name="Import" value="轉入"/>
+            <input type="submit" name="btnImport" value="轉入"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
     </body>
