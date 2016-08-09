@@ -8,7 +8,6 @@ if( isset($_POST["Details"])) {
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
 }
-
 ?>
 <!DOCTYPE html>
 <html>

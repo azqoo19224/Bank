@@ -19,7 +19,5 @@ class DB
         DB::$db = $db;
 
     }
-
 }
-
 ?>
