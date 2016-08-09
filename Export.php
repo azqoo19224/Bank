@@ -3,22 +3,25 @@ require_once 'DB.php';
 DB::pdoConnect();
 
 if(isset($_POST["Import"])){
-    $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name");
-    $select->bindParam(":name", $_POST["name"]);
-    $select->execute();
-    $balance =  $select->fetch(PDO::FETCH_ASSOC);
-    $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
+    try{
+        DB::$db->beginTransaction();
+	    
+        $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
+        $select->bindParam(":name", $_POST["name"]);
+        $select->execute();
+        $balance =  $select->fetch(PDO::FETCH_ASSOC);
+        $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
     //判斷餘額
     if($balance["balance"] >= $_POST["moneyin"]){
         $money = $balance["balance"] - $_POST["moneyin"];
         $insert->bindParam(":money", $money);
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
+        sleep(5);
         
         //insert Data
-        $insertData = DB::$db->prepare("INSERT INTO `data` (`id`, `name`, `money`, `project`) VALUES (:id, :name, :money, :project)");
+        $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `project`) VALUES (:name, :money, :project)");
         $project = "使用者:".$balance["name"]."<br>轉出前的金錢為:".$balance["balance"]."<br>轉出後的金錢為:".$money;
-        $insertData->bindParam(":id", $balance["id"]);
         $insertData->bindParam(":name", $balance["name"]);
         $insertData->bindParam(":money", $balance["balance"]);
         $insertData->bindParam(":project", $project);
@@ -27,6 +30,15 @@ if(isset($_POST["Import"])){
     } else{
         echo "<script> alert('餘額不足') </script>";
     }
+    
+    DB::$db->commit();
+	    DB::$db = NULL;
+    } catch(PDOException $err){
+	    DB::$db->rollback();
+	    echo "Error: " . $err->getMessage();
+	    exit();
+        }
+    
    
 
 }
