@@ -6,6 +6,7 @@ DB::pdoConnect();
 if ( isset($_POST["Import"])) {
     try {
 	    DB::$db->beginTransaction();
+	    
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();

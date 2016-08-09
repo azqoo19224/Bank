@@ -4,7 +4,7 @@ require_once 'DB.php';
 DB::pdoConnect();
 
 if ( isset($_POST["Import"])) {
-    try{
+    try {
         DB::$db->beginTransaction();
 	    
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
