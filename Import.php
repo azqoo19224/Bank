@@ -19,13 +19,11 @@ if (isset($_POST["btnImport"])) {
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
 
-        $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `project`, `infoAfter`, `infoBefore`) VALUES (:name, :money, :project, :infoAfter, :infoBefore)");
-        $project = "使用者:" . $balance["name"] . "<br>轉入前的金錢為:" . $balance["balance"] . "<br>轉入後的金錢為:" . $money;
+        $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `project`, `infoAfter`, `infoBefore`) VALUES (:name, :money, :infoAfter, :infoBefore)");
         $insertData->bindParam(":infoBefore", $balance["balance"]);
         $insertData->bindParam(":infoAfter", $money);
         $insertData->bindParam(":name", $balance["name"]);
         $insertData->bindParam(":money", $balance["balance"]);
-        $insertData->bindParam(":project", $project);
         $insertData->execute();
 
         echo "<script> alert('成功轉入" . $_POST["money"] . "元'); location.href='bank.php'</script>";
