@@ -1,9 +1,10 @@
 <?php
 require_once 'DB.php';
+
 DB::pdoConnect();
-if(isset($_POST["Import"])){
-    
-    try{
+
+if(isset($_POST["Import"])) {
+    try {
 	    DB::$db->beginTransaction();
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
@@ -12,22 +13,24 @@ if(isset($_POST["Import"])){
         //insert balance
         sleep(5);
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
-        $money=$balance["balance"] + $_POST["moneyin"];
+        $money = $balance["balance"] + $_POST["moneyin"];
         $insert->bindParam(":money", $money);
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
-    
+
         $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `project`) VALUES (:name, :money, :project)");
         $project="使用者:".$balance["name"]."<br>轉入前的金錢為:".$balance["balance"]."<br>轉入後的金錢為:".$money;
         $insertData->bindParam(":name", $balance["name"]);
         $insertData->bindParam(":money", $balance["balance"]);
         $insertData->bindParam(":project", $project);
         $insertData->execute();
+
         echo "<script> alert('成功轉入".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
-    
+
         DB::$db->commit();
 	    DB::$db = NULL;
-    } catch(PDOException $err){
+	    
+    } catch(PDOException $err) {
 	    DB::$db->rollback();
 	    echo "Error: " . $err->getMessage();
 	    exit();
