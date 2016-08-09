@@ -3,7 +3,7 @@ require_once 'DB.php';
 
 DB::pdoConnect();
 
-if(isset($_POST["Check"])){
+if(isset($_POST["Check"])) {
     $select = DB::$db->prepare("SELECT `balance` FROM `user` WHERE `name` = :name");
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
