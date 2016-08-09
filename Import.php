@@ -35,11 +35,8 @@ if(isset($_POST["Import"])) {
 	    echo "Error: " . $err->getMessage();
 	    exit();
         }
-    
 
 }
-
-
 ?>
 
 <!DOCTYPE html>
