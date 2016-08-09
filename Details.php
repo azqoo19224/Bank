@@ -1,7 +1,9 @@
 <?php
 require_once 'DB.php';
+
 DB::pdoConnect();
-if(isset($_POST["Details"])){
+
+if(isset($_POST["Details"])) {
     $select = DB::$db->prepare("SELECT * FROM `data` WHERE `name` = :name");
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
@@ -19,8 +21,8 @@ if(isset($_POST["Details"])){
             <input type="submit" name="Details" value="查詢"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
-        <?php if(isset($_POST["Details"])){
-                while($result =  $select->fetch(PDO::FETCH_ASSOC)){ ?>
+        <?php if(isset($_POST["Details"])) {
+                while($result =  $select->fetch(PDO::FETCH_ASSOC)) { ?>
             <h2 align="center"> <?php echo $result["time"]."->".$result["project"]; ?> </h2>
         <?php       }
               } ?>

@@ -22,7 +22,7 @@ if(isset($_POST["Check"])){
             <input type="submit" name="Check" value="查詢"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
-        <?php if(isset($_POST["Check"])){ ?>
+        <?php if(isset($_POST["Check"])) { ?>
             <h2 align="center"> <?php echo "使用者:".$_POST["name"]."<br>餘額:".$balance["balance"]; ?> </h2>
         <?php } ?>
     </body>
