@@ -21,7 +21,7 @@ if( isset($_POST["Details"])) {
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
         <?php if(isset($_POST["Details"])) {
-                while($result =  $select->fetch(PDO::FETCH_ASSOC)) { ?>
+                while($result = $select->fetch(PDO::FETCH_ASSOC)) { ?>
             <h2 align="center"> <?php echo $result["time"]."->".$result["project"]; ?> </h2>
         <?php       }
               } ?>
