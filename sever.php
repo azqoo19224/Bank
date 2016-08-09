@@ -9,7 +9,6 @@ if( isset($_POST["btnImport"])) {
 if( isset($_POST["btnExport"])) {
     header("location:/BankProject/Export.php");
     exit();
-    
 }
 
 if( isset($_POST["btnCheck"])) {
