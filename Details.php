@@ -2,11 +2,12 @@
 require_once 'DB.php';
 
 DB::pdoConnect();
-
+$data = array();
 if(isset($_POST["btnDetails"])) {
     $select = DB::$db->prepare("SELECT * FROM `data` WHERE `name` = :name");
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
+    $data = $select->fetchAll(PDO::FETCH_ASSOC);
 }
 ?>
 <!DOCTYPE html>
@@ -20,10 +21,10 @@ if(isset($_POST["btnDetails"])) {
             <input type="submit" name="btnDetails" value="查詢"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
-        <?php if(isset($_POST["btnDetails"])) {
-                while($result = $select->fetch(PDO::FETCH_ASSOC)) { ?>
-            <h2 align="center"> <?php echo $result["time"]."->".$result["project"]; ?> </h2>
-        <?php       }
+        <?php if (isset($_POST["btnDetails"])) {
+                  foreach($data as $result) { ?>
+                  <h2 align="center"> <?php echo $result["time"] . "->" . $result["project"]; ?> </h2>
+        <?php     }
               } ?>
     </body>
 </html>

@@ -13,22 +13,22 @@ if (isset($_POST["btnImport"])) {
         $balance = $select->fetch(PDO::FETCH_ASSOC);
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
         //判斷餘額
-        if($balance["balance"] >= $_POST["moneyin"]) {
+        if($balance["balance"] >= $_POST["moneyOut"]) {
             $money = $balance["balance"] - $_POST["moneyOut"];
             $insert->bindParam(":money", $money);
             $insert->bindParam(":name", $_POST["name"]);
             $insert->execute();
 
-            sleep(5);
+
             //insert Data
             $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `project`) VALUES (:name, :money, :project)");
-            $project = "使用者:".$balance["name"]."<br>轉出前的金錢為:".$balance["balance"]."<br>轉出後的金錢為:".$money;
+            $project = "使用者:" . $balance["name"] . "<br>轉出前的金錢為:" . $balance["balance"] . "<br>轉出後的金錢為:" . $money;
             $insertData->bindParam(":name", $balance["name"]);
             $insertData->bindParam(":money", $balance["balance"]);
             $insertData->bindParam(":project", $project);
             $insertData->execute();
 
-            echo "<script> alert('成功轉出".$_POST["moneyin"]."元'); location.href='bank.php'</script>";
+            echo "<script> alert('成功轉出" . $_POST["moneyOut"] . "元'); location.href='bank.php'</script>";
 
         } else {
             echo "<script> alert('餘額不足') </script>";
