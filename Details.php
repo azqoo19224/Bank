@@ -8,6 +8,12 @@ if(isset($_POST["btnDetails"])) {
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
     $data = $select->fetchAll(PDO::FETCH_ASSOC);
+    foreach($data as $result) {
+        echo "時間:" . $result["time"] . "<br>";
+        echo "使用者:" . $result["name"] . "<br>";
+        echo "操作前的金錢為:" . $result["infoBefore"] . "<br>";
+        echo "操作後的金錢為:" .  $result["infoAfter"] . "<br><br>";
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -21,10 +27,5 @@ if(isset($_POST["btnDetails"])) {
             <input type="submit" name="btnDetails" value="查詢"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
-        <?php if (isset($_POST["btnDetails"])) {
-                  foreach($data as $result) { ?>
-                  <h2 align="center"> <?php echo $result["time"] . "->" . $result["project"]; ?> </h2>
-        <?php     }
-              } ?>
     </body>
 </html>
