@@ -6,19 +6,18 @@ DB::pdoConnect();
 if (isset($_POST["btnImport"])) {
     try {
 	    DB::$db->beginTransaction();
-
+        // select user
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
         $user = $select->fetch(PDO::FETCH_ASSOC);
-        //insert balance
-
+        // update balance
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
         $money = $user["balance"] + $_POST["money"];
         $insert->bindParam(":money", $money);
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
-
+        // insert data
         $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoAfter`, `infoBefore`) VALUES (:name, :money, :infoAfter, :infoBefore)");
         $insertData->bindParam(":infoBefore", $user["balance"]);
         $insertData->bindParam(":infoAfter", $money);
