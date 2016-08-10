@@ -1,3 +1,26 @@
+<?php
+require_once 'DB.php';
+
+if(isset($_POST["btnImport"])) {
+    header("location:/BankProject/Import.php");
+    exit();
+}
+
+if(isset($_POST["btnExport"])) {
+    header("location:/BankProject/Export.php");
+    exit();
+}
+
+if(isset($_POST["btnCheck"])) {
+    header("location:/BankProject/Check.php");
+    exit();
+}
+
+if(isset($_POST["btnDetails"])) {
+    header("location:/BankProject/Details.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,7 +28,7 @@
     </head>
     <body>
     <div>
-        <form  method="post" action="sever.php/btn()">
+        <form  method="post" action="bank.php">
             <table style="text-align:center;margin:0 auto;">
                 <tr>
                     <td>
