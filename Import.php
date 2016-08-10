@@ -6,6 +6,10 @@ DB::pdoConnect();
 if (isset($_POST["btnImport"])) {
     try {
 	    DB::$db->beginTransaction();
+
+        $info = "轉入:" . $_POST["money"];
+        $money = $user["balance"] + $_POST["money"];
+
         // select user
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
@@ -13,16 +17,15 @@ if (isset($_POST["btnImport"])) {
         $user = $select->fetch(PDO::FETCH_ASSOC);
         // update balance
         $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
-        $money = $user["balance"] + $_POST["money"];
         $insert->bindParam(":money", $money);
         $insert->bindParam(":name", $_POST["name"]);
         $insert->execute();
         // insert data
-        $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoAfter`, `infoBefore`) VALUES (:name, :money, :infoAfter, :infoBefore)");
-        $insertData->bindParam(":infoBefore", $user["balance"]);
-        $insertData->bindParam(":infoAfter", $money);
+        $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoMoney`, `info`) VALUES (:name, :money, :infoMoney, :info)");
         $insertData->bindParam(":name", $user["name"]);
+        $insertData->bindParam(":infoMoney", $money);
         $insertData->bindParam(":money", $user["balance"]);
+        $insertData->bindParam(":info", $info);
         $insertData->execute();
 
         echo "<script> alert('成功轉入" . $_POST["money"] . "元'); location.href='bank.php'</script>";
