@@ -8,6 +8,8 @@ if (isset($_POST["btnCheck"])) {
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
     $balance = $select->fetch(PDO::FETCH_ASSOC);
+    echo "使用者:" . $_POST["name"] . "<br>";
+    echo "餘額:" . $balance["balance"];
 }
 ?>
 <!DOCTYPE html>
@@ -21,8 +23,5 @@ if (isset($_POST["btnCheck"])) {
             <input type="submit" name="btnCheck" value="查詢"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
-        <?php if(isset($_POST["btnCheck"])) { ?>
-            <h2 align="center"> <?php echo "使用者:".$_POST["name"]."<br>餘額:".$balance["balance"]; ?> </h2>
-        <?php } ?>
     </body>
 </html>
