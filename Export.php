@@ -13,8 +13,8 @@ if (isset($_POST["btnImport"])) {
         $user = $select->fetch(PDO::FETCH_ASSOC);
         //判斷餘額
         if($user["balance"] >= $_POST["money"]) {
-            $money = $user["balance"] - $_POST["money"];
             $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
+            $money = $user["balance"] - $_POST["money"];
             $insert->bindParam(":money", $money);
             $insert->bindParam(":name", $_POST["name"]);
             $insert->execute();
