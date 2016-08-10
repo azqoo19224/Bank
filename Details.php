@@ -2,7 +2,7 @@
 require_once 'DB.php';
 
 DB::pdoConnect();
-$data = array();
+
 if(isset($_POST["btnDetails"])) {
     $select = DB::$db->prepare("SELECT * FROM `data` WHERE `name` = :name");
     $select->bindParam(":name", $_POST["name"]);
@@ -11,7 +11,7 @@ if(isset($_POST["btnDetails"])) {
     foreach($data as $result) {
         echo "時間:" . $result["time"] . "<br>";
         echo "使用者:" . $result["name"] . "<br>";
-        echo "選擇操作為->" . $result["info"] . $result['count'] . "<br>";
+        echo "選擇操作為__" . $result["info"] . "__金額:" . $result['count'] . "<br>";
         echo "操作前的金錢為:" . $result["money"] . "<br>";
         echo "操作後的金錢為:" .  $result["infoMoney"] . "<br><br>";
     }
