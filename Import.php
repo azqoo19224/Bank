@@ -5,7 +5,7 @@ DB::pdoConnect();
 
 if (isset($_POST["btnImport"])) {
     try {
-	    DB::$db->beginTransaction();
+        DB::$db->beginTransaction();
         // select user
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name FOR UPDATE");
         $select->bindParam(":name", $_POST["name"]);
@@ -29,14 +29,14 @@ if (isset($_POST["btnImport"])) {
         $insertData->execute();
 
         DB::$db->commit();
-	    DB::$db = NULL;
+        DB::$db = NULL;
 
         echo "<script> alert('成功轉入" . $_POST["money"] . "元'); location.href='bank.php'</script>";
 
     } catch (PDOException $err) {
-	    DB::$db->rollback();
-	    echo "Error: " . $err->getMessage();
-	    exit();
+        DB::$db->rollback();
+        echo "Error: " . $err->getMessage();
+        exit();
         }
 }
 ?>

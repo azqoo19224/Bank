@@ -30,7 +30,6 @@ if (isset($_POST["btnImport"])) {
             $insertData->execute();
 
             echo "<script> alert('成功轉出" . $_POST["money"] . "元'); location.href='bank.php'</script>";
-
         } else {
             echo "<script> alert('餘額不足') </script>";
         }
