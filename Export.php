@@ -36,9 +36,9 @@ if (isset($_POST["btnImport"])) {
 
         DB::$db->commit();
         DB::$db = null;
-
         } catch (PDOException $err) {
             DB::$db->rollback();
+
             echo "Error: " . $err->getMessage();
             exit();
         }
