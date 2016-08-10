@@ -39,8 +39,8 @@ if(isset($_POST["btnDetails"])) {
                 </tr>
                 <tr>
                     <td>
-                        <input type="submit" name="btnImport" value="匯入"/>
-                        <input type="submit" name="btnExport" value="匯出" />
+                        <input type="submit" name="btnImport" value="轉入"/>
+                        <input type="submit" name="btnExport" value="轉出" />
                         <input type="submit" name="btnCheck" value="查看餘額"/>
                         <input type="submit" name="btnDetails" value="帳目明細"/>
                     </td>
