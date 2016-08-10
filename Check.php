@@ -8,9 +8,11 @@ if (isset($_POST["btnCheck"])) {
     $select->bindParam(":name", $_POST["name"]);
     $select->execute();
     $balance = $select->fetch(PDO::FETCH_ASSOC);
+
     echo "使用者:" . $_POST["name"] . "<br>";
     echo "餘額:" . $balance["balance"];
 }
+
 ?>
 <!DOCTYPE html>
 <html>
