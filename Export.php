@@ -11,15 +11,14 @@ if (isset($_POST["btnImport"])) {
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
         $user = $select->fetch(PDO::FETCH_ASSOC);
-        //判斷餘額
-        if($user["balance"] >= $_POST["money"]) {
+
+        if ($user["balance"] >= $_POST["money"]) {
             $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
             $money = $user["balance"] - $_POST["money"];
             $insert->bindParam(":money", $money);
             $insert->bindParam(":name", $_POST["name"]);
             $insert->execute();
-            //insert Data
-            sleep(4);
+
             $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoMoney`, `info`, `count`) VALUES (:name, :money, :infoMoney, :info, :count)");
             $info = "轉出:";
             $count = $_POST["money"];
@@ -36,14 +35,15 @@ if (isset($_POST["btnImport"])) {
         }
 
         DB::$db->commit();
-    	DB::$db = NULL;
+        DB::$db = null;
 
-    } catch (PDOException $err) {
-	    DB::$db->rollback();
-	    echo "Error: " . $err->getMessage();
-	    exit();
+        } catch (PDOException $err) {
+            DB::$db->rollback();
+            echo "Error: " . $err->getMessage();
+            exit();
         }
 }
+
 ?>
 <!DOCTYPE html>
 <html>
