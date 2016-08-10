@@ -40,6 +40,7 @@ if (isset($_POST["btnImport"])) {
             DB::$db->rollback();
 
             echo "Error: " . $err->getMessage();
+
             exit();
         }
 }

@@ -32,10 +32,11 @@ if (isset($_POST["btnImport"])) {
         DB::$db = null;
 
         echo "<script> alert('成功轉入" . $_POST["money"] . "元'); location.href='bank.php'</script>";
-
     } catch (PDOException $err) {
         DB::$db->rollback();
+
         echo "Error: " . $err->getMessage();
+
         exit();
     }
 }
