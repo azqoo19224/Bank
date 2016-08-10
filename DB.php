@@ -1,8 +1,8 @@
 <?php
-class DB 
+class DB
 {
     public static $db;
-    public static function pdoConnect() 
+    public static function pdoConnect()
     {
         $config['db']['dsn'] = 'mysql:host=localhost; dbname=Bank; charset=utf8';
         $config['db']['user'] = 'root';

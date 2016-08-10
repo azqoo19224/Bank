@@ -11,8 +11,9 @@ if(isset($_POST["btnDetails"])) {
     foreach($data as $result) {
         echo "時間:" . $result["time"] . "<br>";
         echo "使用者:" . $result["name"] . "<br>";
-        echo "操作前的金錢為:" . $result["infoBefore"] . "<br>";
-        echo "操作後的金錢為:" .  $result["infoAfter"] . "<br><br>";
+        echo "選擇操作為:" . $result["info"];
+        echo "操作前的金錢為:" . $result["money"] . "<br>";
+        echo "操作後的金錢為:" .  $result["infoMoney"] . "<br><br>";
     }
 }
 ?>
