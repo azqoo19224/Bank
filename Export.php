@@ -19,6 +19,7 @@ if (isset($_POST["btnImport"])) {
             $insert->bindParam(":name", $_POST["name"]);
             $insert->execute();
             //insert Data
+            sleep(4);
             $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoMoney`, `info`, `count`) VALUES (:name, :money, :infoMoney, :info, :count)");
             $info = "轉出:";
             $count = $_POST["money"];
