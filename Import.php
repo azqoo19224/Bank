@@ -9,7 +9,7 @@ if (isset($_POST["btnImport"])) {
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
         $user = $select->fetch(PDO::FETCH_ASSOC);
-sleep(2);
+
         $update = DB::$db->prepare("UPDATE `user` SET `balance` = :money, `version` = `version` + 1 WHERE `name` = :name AND `version` = :version");
         $count = $user["balance"] + $_POST["money"];
         $update->bindParam(":money", $count);
