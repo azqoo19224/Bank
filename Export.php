@@ -13,20 +13,19 @@ if (isset($_POST["btnExport"])) {
         $user = $select->fetch(PDO::FETCH_ASSOC);
 
         if ($user["balance"] >= $_POST["money"]) {
-            $insert = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
-            $money = $user["balance"] - $_POST["money"];
-            $insert->bindParam(":money", $money);
-            $insert->bindParam(":name", $_POST["name"]);
-            $insert->execute();
+            $update = DB::$db->prepare("UPDATE `user` SET `balance` = :money WHERE `name` = :name");
+            $count = $user["balance"] - $_POST["money"];
+            $update->bindParam(":money", $count);
+            $update->bindParam(":name", $_POST["name"]);
+            $update->execute();
 
-            $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `money`, `infoMoney`, `info`, `count`) VALUES (:name, :money, :infoMoney, :info, :count)");
+            $insertData = DB::$db->prepare("INSERT INTO `data` (`name`, `balance`, `newBalance`, `info`, `money`) VALUES (:name, :balance, :newBalance, :info, :money)");
             $info = "轉出:";
-            $count = $_POST["money"];
             $insertData->bindParam(":name", $user["name"]);
-            $insertData->bindParam(":infoMoney", $money);
-            $insertData->bindParam(":money", $user["balance"]);
+            $insertData->bindParam(":newBalance", $count);
+            $insertData->bindParam(":balance", $user["balance"]);
             $insertData->bindParam(":info", $info);
-            $insertData->bindParam(":count", $count);
+            $insertData->bindParam(":money", $_POST["money"]);
             $insertData->execute();
 
             DB::$db->commit();
@@ -59,7 +58,7 @@ if (isset($_POST["btnExport"])) {
             <br>
             <input type="number" min="0" step="1" name="money"/>轉出金額
             <br>
-            <input type="submit" name="btnImport" value="轉出"/>
+            <input type="submit" name="btnExport" value="轉出"/>
             <input type="button" name="back" value="返回" onclick="location.href='bank.php'"/>
         </form>
     </body>
