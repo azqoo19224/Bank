@@ -29,20 +29,21 @@ if (isset($_POST["btnExport"])) {
             $insertData->bindParam(":count", $count);
             $insertData->execute();
 
+            DB::$db->commit();
+            DB::$db = null;
+
             echo "<script> alert('成功轉出" . $_POST["money"] . "元'); location.href='bank.php'</script>";
         } else {
             echo "<script> alert('餘額不足') </script>";
         }
 
-        DB::$db->commit();
-        DB::$db = null;
-        } catch (PDOException $err) {
-            DB::$db->rollback();
+    } catch (PDOException $err) {
+        DB::$db->rollback();
 
-            echo "Error: " . $err->getMessage();
+        echo "Error: " . $err->getMessage();
 
-            exit();
-        }
+        exit();
+    }
 }
 
 ?>
