@@ -14,13 +14,13 @@ if (isset($_POST["btnExport"])) {
 }
 
 if (isset($_POST["btnCheck"])) {
-    header("location:/BankProject/Check.php");
+    header("location:/BankProject/BalanceInquiry.php");
 
     exit();
 }
 
 if (isset($_POST["btnDetails"])) {
-    header("location:/BankProject/Details.php");
+    header("location:/BankProject/ShowDetails.php");
 
     exit();
 }
