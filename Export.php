@@ -4,9 +4,6 @@ require_once 'DB.php';
 DB::pdoConnect();
 
 if (isset($_POST["btnExport"])) {
-    // try {
-        // DB::$db->beginTransaction();
-
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name");
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
@@ -32,7 +29,7 @@ if (isset($_POST["btnExport"])) {
 
                 echo "<script> alert('成功轉出" . $_POST["money"] . "元'); location.href='bank.php'</script>";
             } else {
-                 echo "<script> alert('連線逾時 請重試') </script>";
+                echo "<script> alert('連線逾時 請重試') </script>";
             }
         } else {
             echo "<script> alert('餘額不足') </script>";

@@ -4,7 +4,6 @@ require_once 'DB.php';
 DB::pdoConnect();
 
 if (isset($_POST["btnImport"])) {
-
         $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name");
         $select->bindParam(":name", $_POST["name"]);
         $select->execute();
@@ -31,7 +30,6 @@ if (isset($_POST["btnImport"])) {
         } else {
             echo "<script> alert('連線逾時 請重試'); location.href='bank.php'</script>";
         }
-
 }
 
 ?>
