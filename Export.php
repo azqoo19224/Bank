@@ -3,7 +3,7 @@ require_once 'DB.php';
 
 DB::pdoConnect();
 
-if (isset($_POST["btnImport"])) {
+if (isset($_POST["btnExport"])) {
     try {
         DB::$db->beginTransaction();
 
