@@ -3,7 +3,7 @@ require_once 'Controller.php';
 
 
 if (isset($_POST["btnExport"])) {
-      echo getExport($_POST["money"]);
+    echo getExport($_POST["money"]);
 }
 
 ?>

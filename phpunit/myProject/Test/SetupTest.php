@@ -36,5 +36,4 @@ class SetupTest extends \PHPUnit_Framework_TestCase
         $return = getImport($money, $name);
         $this->assertEquals($returnEcho, $return);
     }
-
 }

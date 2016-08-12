@@ -5,7 +5,6 @@ DB::pdoConnect();
 
 function getExport($money, $name)
 {
-
     $select = DB::$db->prepare("SELECT * FROM `user` WHERE `name` = :name");
     $select->bindParam(":name", $name);
     $select->execute();
@@ -67,5 +66,3 @@ function getImport($money, $name)
         return "<script> alert('連線逾時 請重試'); location.href='bank.php'</script>";
     }
 }
-
-
