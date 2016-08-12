@@ -1,0 +1,1043 @@
+[12-Aug-2016 02:03:05 UTC] PHP Fatal error:  Class 'myProject\Test\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 10
+[12-Aug-2016 02:03:05 UTC] PHP Stack trace:
+[12-Aug-2016 02:03:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:03:05 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:03:05 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:03:05 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:03:05 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:03:05 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:03:05 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:03:05 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:03:05 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:03:05 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:03:05 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:03:05 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:06:12 UTC] PHP Fatal error:  Class 'myProject\Test\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 10
+[12-Aug-2016 02:06:12 UTC] PHP Stack trace:
+[12-Aug-2016 02:06:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:06:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:06:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:06:12 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:06:12 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:06:12 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:06:12 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:06:12 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:06:12 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:06:12 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:06:12 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:06:12 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:06:58 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:06:58 UTC] PHP Stack trace:
+[12-Aug-2016 02:06:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:06:58 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:06:58 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:06:58 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:06:58 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:06:58 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:06:58 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:06:58 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:06:58 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:06:58 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:06:58 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:06:58 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:07:34 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:07:34 UTC] PHP Stack trace:
+[12-Aug-2016 02:07:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:07:34 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:07:34 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:07:34 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:07:34 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:07:34 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:07:34 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:07:34 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:07:34 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:07:34 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:07:34 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:07:34 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:07:56 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:07:56 UTC] PHP Stack trace:
+[12-Aug-2016 02:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:07:56 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:07:56 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:07:56 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:07:56 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:07:56 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:07:56 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:07:56 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:07:56 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:07:56 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:07:56 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:07:56 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:10:26 UTC] PHP Fatal error:  Call to undefined method SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 12
+[12-Aug-2016 02:10:26 UTC] PHP Stack trace:
+[12-Aug-2016 02:10:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:10:26 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:10:26 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:10:26 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:10:26 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:10:26 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:10:26 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:10:26 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:10:26 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:10:26 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:10:26 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:10:26 UTC] PHP  12. SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:10:47 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:10:47 UTC] PHP Stack trace:
+[12-Aug-2016 02:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:10:47 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:10:47 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:10:47 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:10:47 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:10:47 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:10:47 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:10:47 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:10:47 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:10:47 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:10:47 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:10:47 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:11:31 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:11:31 UTC] PHP Stack trace:
+[12-Aug-2016 02:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:11:31 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:11:31 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:11:31 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:11:31 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:11:31 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:11:31 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:11:31 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:11:31 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:11:31 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:11:31 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:11:31 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:11:50 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:11:51 UTC] PHP Stack trace:
+[12-Aug-2016 02:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:11:51 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:11:51 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:11:51 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:11:51 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:11:51 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:11:51 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:11:51 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:11:51 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:11:51 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:11:51 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:11:51 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:13:52 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:13:52 UTC] PHP Stack trace:
+[12-Aug-2016 02:13:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:13:52 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:13:52 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:13:52 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:13:52 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:13:52 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:13:52 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:13:52 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:13:52 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:13:52 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:13:52 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:13:52 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:15:03 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::assertEqules() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 13
+[12-Aug-2016 02:15:03 UTC] PHP Stack trace:
+[12-Aug-2016 02:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:15:03 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:15:03 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:15:03 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:15:03 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:15:03 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:15:03 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:15:03 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:15:03 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:15:03 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:15:03 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:15:03 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:17:31 UTC] PHP Fatal error:  Class 'myProject\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 12
+[12-Aug-2016 02:17:31 UTC] PHP Stack trace:
+[12-Aug-2016 02:17:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:17:31 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:17:31 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:17:31 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:17:31 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:17:31 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:17:31 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:17:31 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:17:31 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:17:31 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:17:31 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:17:31 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:18:56 UTC] PHP Fatal error:  Class 'myProject\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 12
+[12-Aug-2016 02:18:56 UTC] PHP Stack trace:
+[12-Aug-2016 02:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:18:56 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:18:56 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:18:56 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:18:56 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:18:56 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:18:56 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:18:56 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:18:56 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:18:56 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:18:56 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:18:56 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:19:18 UTC] PHP Fatal error:  Class 'myProject\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 12
+[12-Aug-2016 02:19:18 UTC] PHP Stack trace:
+[12-Aug-2016 02:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:19:18 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:19:18 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:19:18 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:19:18 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:19:18 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:19:18 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:19:18 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:19:18 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:19:18 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:19:18 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:19:18 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:19:44 UTC] PHP Fatal error:  Class 'myProject\TestClass' not found in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 12
+[12-Aug-2016 02:19:44 UTC] PHP Stack trace:
+[12-Aug-2016 02:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 02:19:44 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 02:19:44 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 02:19:44 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 02:19:44 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 02:19:44 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:19:44 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 02:19:44 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 02:19:44 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 02:19:44 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 02:19:44 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 02:19:44 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:00:52 UTC] PHP Warning:  Uncaught require_once(./DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:00:52 UTC] PHP Stack trace:
+[12-Aug-2016 03:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:00:52 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:00:52 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:00:52 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:00:52 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:00:52 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:00:52 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:00:52 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:00:52 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:00:52 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:00:52 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:00:52 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:00:52 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:00:52 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:00:52 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:00:52 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:00:52 UTC] PHP Fatal error:  main(): Failed opening required './DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:00:52 UTC] PHP Stack trace:
+[12-Aug-2016 03:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:00:52 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:00:52 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:00:52 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:00:52 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:00:52 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:00:52 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:00:52 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:00:52 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:00:52 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:00:52 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:00:52 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:00:52 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:00:52 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:00:52 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:00:52 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:01:37 UTC] PHP Warning:  Uncaught require_once(/BankPorject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:01:37 UTC] PHP Stack trace:
+[12-Aug-2016 03:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:01:37 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:01:37 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:01:37 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:01:37 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:01:37 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:37 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:37 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:01:37 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:01:37 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:01:37 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:37 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:37 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:37 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:37 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:01:37 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:01:37 UTC] PHP Fatal error:  main(): Failed opening required '/BankPorject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:01:37 UTC] PHP Stack trace:
+[12-Aug-2016 03:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:01:37 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:01:37 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:01:37 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:01:37 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:01:37 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:37 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:37 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:01:37 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:01:37 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:01:37 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:37 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:37 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:37 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:37 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:01:37 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:01:53 UTC] PHP Warning:  Uncaught require_once(/BankProject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:01:53 UTC] PHP Stack trace:
+[12-Aug-2016 03:01:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:01:53 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:01:53 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:01:53 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:01:53 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:01:53 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:53 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:53 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:01:53 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:01:53 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:01:53 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:53 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:53 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:53 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:53 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:01:53 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:01:53 UTC] PHP Fatal error:  main(): Failed opening required '/BankProject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:01:53 UTC] PHP Stack trace:
+[12-Aug-2016 03:01:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:01:53 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:01:53 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:01:53 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:01:53 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:01:53 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:53 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:01:53 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:01:53 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:01:53 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:01:53 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:53 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:01:53 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:53 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:01:53 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:01:53 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:00 UTC] PHP Warning:  Uncaught require_once(/BankProject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:00 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:00 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:00 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:00 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:00 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:00 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:00 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:00 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:00 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:00 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:00 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:00 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:00 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:00 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:00 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:00 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:00 UTC] PHP Fatal error:  main(): Failed opening required '/BankProject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:00 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:00 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:00 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:00 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:00 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:00 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:00 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:00 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:00 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:00 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:00 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:00 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:00 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:00 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:00 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:00 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:11 UTC] PHP Warning:  Uncaught require_once(BankProject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:11 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:11 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:11 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:11 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:11 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:11 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:11 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:11 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:11 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:11 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:11 UTC] PHP Fatal error:  main(): Failed opening required 'BankProject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:11 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:11 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:11 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:11 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:11 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:11 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:11 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:11 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:11 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:11 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:54 UTC] PHP Warning:  Uncaught require_once(./BankProject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:54 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:54 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:54 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:54 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:54 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:54 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:54 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:54 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:54 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:54 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:54 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:54 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:54 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:54 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:54 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:54 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:02:54 UTC] PHP Fatal error:  main(): Failed opening required './BankProject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:02:54 UTC] PHP Stack trace:
+[12-Aug-2016 03:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:02:54 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:02:54 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:02:54 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:02:54 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:02:54 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:54 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:02:54 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:02:54 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:02:54 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:02:54 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:54 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:02:54 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:54 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:02:54 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:02:54 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:04:11 UTC] PHP Warning:  Uncaught require_once(/BankProject/DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:04:11 UTC] PHP Stack trace:
+[12-Aug-2016 03:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:04:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:04:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:04:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:04:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:04:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:04:11 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:04:11 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:04:11 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:04:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:04:11 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:04:11 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:04:11 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:04:11 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:04:11 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:04:11 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:04:11 UTC] PHP Fatal error:  main(): Failed opening required '/BankProject/DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:04:11 UTC] PHP Stack trace:
+[12-Aug-2016 03:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:04:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:04:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:04:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:04:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:04:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:04:11 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:04:11 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:04:11 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:04:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:04:11 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:04:11 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:04:11 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:04:11 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:04:11 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:04:11 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:30 UTC] PHP Warning:  Uncaught require_once(BankProject\DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:30 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:30 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:30 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:30 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:30 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:30 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:30 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:30 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:30 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:30 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:30 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:30 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:30 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:30 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:30 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:30 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:30 UTC] PHP Fatal error:  main(): Failed opening required 'BankProject\DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:30 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:30 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:30 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:30 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:30 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:30 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:30 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:30 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:30 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:30 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:30 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:30 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:30 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:30 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:30 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:30 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:43 UTC] PHP Warning:  Uncaught require_once(.\BankProject\DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:43 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:43 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:43 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:43 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:43 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:43 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:43 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:43 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:43 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:43 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:43 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:43 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:43 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:43 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:43 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:43 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:43 UTC] PHP Fatal error:  main(): Failed opening required '.\BankProject\DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:43 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:43 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:43 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:43 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:43 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:43 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:43 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:43 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:43 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:43 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:43 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:43 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:43 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:43 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:43 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:43 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:55 UTC] PHP Warning:  Uncaught require_once(..\BankProject\DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:55 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:55 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:55 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:55 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:55 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:55 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:55 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:55 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:55 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:55 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:55 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:55 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:55 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:55 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:55 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:55 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:05:55 UTC] PHP Fatal error:  main(): Failed opening required '..\BankProject\DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:05:55 UTC] PHP Stack trace:
+[12-Aug-2016 03:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:05:55 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:05:55 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:05:55 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:05:55 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:05:55 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:55 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:05:55 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:05:55 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:05:55 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:05:55 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:55 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:05:55 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:55 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:05:55 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:05:55 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:06:03 UTC] PHP Warning:  Uncaught require_once(BankProject\DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:06:03 UTC] PHP Stack trace:
+[12-Aug-2016 03:06:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:06:03 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:06:03 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:06:03 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:06:03 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:06:03 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:03 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:03 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:06:03 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:06:03 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:06:03 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:03 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:03 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:03 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:03 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:06:03 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:06:03 UTC] PHP Fatal error:  main(): Failed opening required 'BankProject\DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:06:03 UTC] PHP Stack trace:
+[12-Aug-2016 03:06:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:06:03 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:06:03 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:06:03 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:06:03 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:06:03 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:03 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:03 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:06:03 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:06:03 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:06:03 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:03 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:03 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:03 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:03 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:06:03 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:06:12 UTC] PHP Warning:  Uncaught require_once(BankProject\DB.php): failed to open stream: No such file or directory
+
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php:4
+/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:12
+
+  thrown in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:06:12 UTC] PHP Stack trace:
+[12-Aug-2016 03:06:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:06:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:06:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:06:12 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:06:12 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:06:12 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:12 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:12 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:06:12 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:06:12 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:06:12 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:12 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:12 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:12 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:12 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:06:12 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 03:06:12 UTC] PHP Fatal error:  main(): Failed opening required 'BankProject\DB.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/TestClass.php on line 4
+[12-Aug-2016 03:06:12 UTC] PHP Stack trace:
+[12-Aug-2016 03:06:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 03:06:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 03:06:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 03:06:12 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 03:06:12 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 03:06:12 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:12 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 03:06:12 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 03:06:12 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 03:06:12 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 03:06:12 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:12 UTC] PHP  12. myProject\Test\SetupTest->testPrintStart() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 03:06:12 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:12 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:12
+[12-Aug-2016 03:06:12 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:301
+[12-Aug-2016 03:06:12 UTC] PHP  16. include() /home/ubuntu/workspace/BankProject/phpunit/vendor/composer/ClassLoader.php:412
+[12-Aug-2016 04:19:08 UTC] PHP Warning:  require(Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:19:08 UTC] PHP Stack trace:
+[12-Aug-2016 04:19:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:19:08 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:19:08 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:19:08 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:19:08 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:19:08 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:19:08 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:19:08 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:19:08 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:19:08 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:19:08 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:19:08 UTC] PHP Fatal error:  require(): Failed opening required 'Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:19:08 UTC] PHP Stack trace:
+[12-Aug-2016 04:19:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:19:08 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:19:08 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:19:08 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:19:08 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:19:08 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:19:08 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:19:08 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:19:08 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:19:08 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:19:08 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:03 UTC] PHP Warning:  require(..\Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:03 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:03 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:03 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:03 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:03 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:03 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:03 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:03 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:03 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:03 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:03 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:03 UTC] PHP Fatal error:  require(): Failed opening required '..\Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:03 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:03 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:03 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:03 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:03 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:03 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:03 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:03 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:03 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:03 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:03 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:38 UTC] PHP Warning:  require(\BankProject\Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:38 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:38 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:38 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:38 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:38 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:38 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:38 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:38 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:38 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:38 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:38 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:38 UTC] PHP Fatal error:  require(): Failed opening required '\BankProject\Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:38 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:38 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:38 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:38 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:38 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:38 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:38 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:38 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:38 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:38 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:38 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:57 UTC] PHP Warning:  require(BankProject\Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:57 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:57 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:57 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:57 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:57 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:57 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:57 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:57 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:57 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:57 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:57 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:20:57 UTC] PHP Fatal error:  require(): Failed opening required 'BankProject\Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:20:57 UTC] PHP Stack trace:
+[12-Aug-2016 04:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:20:57 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:20:57 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:20:57 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:20:57 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:20:57 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:20:57 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:20:57 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:20:57 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:20:57 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:20:57 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:21:52 UTC] PHP Warning:  require(/home/ubuntu/workspace/BankProject/phpunit/myProject/TestController.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:21:53 UTC] PHP Stack trace:
+[12-Aug-2016 04:21:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:21:53 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:21:53 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:21:53 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:21:53 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:21:53 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:21:53 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:21:53 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:21:53 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:21:53 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:21:53 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:21:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/BankProject/phpunit/myProject/TestController.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:21:53 UTC] PHP Stack trace:
+[12-Aug-2016 04:21:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:21:53 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:21:53 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:21:53 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:21:53 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:21:53 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:21:53 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:21:53 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:21:53 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:21:53 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:21:53 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:25:46 UTC] PHP Catchable fatal error:  Object of class Directory could not be converted to string in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:25:46 UTC] PHP Stack trace:
+[12-Aug-2016 04:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:25:46 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:25:46 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:25:46 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:25:46 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:25:46 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:25:46 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:25:46 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:25:46 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:25:46 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:25:46 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:26:18 UTC] PHP Warning:  require(/home/ubuntu/workspace/BankProject/phpunit/myProject\Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:26:18 UTC] PHP Stack trace:
+[12-Aug-2016 04:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:26:18 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:26:18 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:26:18 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:26:18 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:26:18 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:26:18 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:26:18 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:26:18 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:26:18 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:26:18 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:26:18 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/BankProject/phpunit/myProject\Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:26:18 UTC] PHP Stack trace:
+[12-Aug-2016 04:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:26:18 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:26:18 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:26:18 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:26:18 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:26:18 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:26:18 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:26:18 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:26:18 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:26:18 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:26:18 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:26:48 UTC] PHP Warning:  dir(/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php): failed to open dir: Not a directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:26:48 UTC] PHP Stack trace:
+[12-Aug-2016 04:26:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:26:48 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:26:48 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:26:48 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:26:48 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:26:48 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:26:48 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:26:48 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:26:48 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:26:48 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:26:48 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:26:48 UTC] PHP  12. dir() /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:6
+[12-Aug-2016 04:26:48 UTC] PHP Warning:  require(/Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:26:48 UTC] PHP Stack trace:
+[12-Aug-2016 04:26:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:26:48 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:26:48 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:26:48 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:26:48 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:26:48 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:26:48 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:26:48 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:26:48 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:26:48 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:26:48 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:26:48 UTC] PHP Fatal error:  require(): Failed opening required '/Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:26:48 UTC] PHP Stack trace:
+[12-Aug-2016 04:26:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:26:48 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:26:48 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:26:48 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:26:48 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:26:48 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:26:48 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:26:48 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:26:48 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:26:48 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:26:48 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:27:12 UTC] PHP Warning:  dir(/home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php): failed to open dir: Not a directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:27:12 UTC] PHP Stack trace:
+[12-Aug-2016 04:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:27:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:27:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:27:12 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:27:12 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:27:12 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:27:12 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:27:12 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:27:12 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:27:12 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:27:12 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:27:12 UTC] PHP  12. dir() /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php:6
+[12-Aug-2016 04:27:12 UTC] PHP Warning:  require(/Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:27:12 UTC] PHP Stack trace:
+[12-Aug-2016 04:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:27:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:27:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:27:12 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:27:12 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:27:12 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:27:12 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:27:12 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:27:12 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:27:12 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:27:12 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:27:12 UTC] PHP Fatal error:  require(): Failed opening required '/Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:27:12 UTC] PHP Stack trace:
+[12-Aug-2016 04:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:27:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:27:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:27:12 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:27:12 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:27:12 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:27:12 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:27:12 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:27:12 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:27:12 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:27:12 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:27:32 UTC] PHP Warning:  require(/home/ubuntu/workspace/BankProject/phpunit/myProject/Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:27:32 UTC] PHP Stack trace:
+[12-Aug-2016 04:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:27:32 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:27:32 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:27:32 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:27:32 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:27:32 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:27:32 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:27:32 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:27:32 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:27:32 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:27:32 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:27:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/BankProject/phpunit/myProject/Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:27:32 UTC] PHP Stack trace:
+[12-Aug-2016 04:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:27:32 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:27:32 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:27:32 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:27:32 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:27:32 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:27:32 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:27:32 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:27:32 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:27:32 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:27:32 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:28:00 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::asserEquals() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 24
+[12-Aug-2016 04:28:00 UTC] PHP Stack trace:
+[12-Aug-2016 04:28:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:28:00 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:28:00 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:28:00 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 04:28:00 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 04:28:00 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 04:28:00 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 04:28:00 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 04:28:00 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 04:28:00 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 04:28:00 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 04:28:00 UTC] PHP  12. myProject\Test\SetupTest->testGetExport() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 04:28:50 UTC] PHP Warning:  require(/home/ubuntu/workspace/BankProject/phpunit/Controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:28:50 UTC] PHP Stack trace:
+[12-Aug-2016 04:28:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:28:50 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:28:50 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:28:50 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:28:50 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:28:50 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:28:50 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:28:50 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:28:50 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:28:50 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:28:50 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:28:50 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/BankProject/phpunit/Controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 6
+[12-Aug-2016 04:28:50 UTC] PHP Stack trace:
+[12-Aug-2016 04:28:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:28:50 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:28:50 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:28:50 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:111
+[12-Aug-2016 04:28:50 UTC] PHP   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:649
+[12-Aug-2016 04:28:50 UTC] PHP   6. PHPUnit_Util_Configuration->getTestSuite() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:870
+[12-Aug-2016 04:28:50 UTC] PHP   7. PHPUnit_Framework_TestSuite->addTestFiles() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Configuration.php:959
+[12-Aug-2016 04:28:50 UTC] PHP   8. PHPUnit_Framework_TestSuite->addTestFile() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:409
+[12-Aug-2016 04:28:50 UTC] PHP   9. PHPUnit_Util_Fileloader::checkAndLoad() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:335
+[12-Aug-2016 04:28:50 UTC] PHP  10. PHPUnit_Util_Fileloader::load() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:38
+[12-Aug-2016 04:28:50 UTC] PHP  11. include_once() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Util/Fileloader.php:56
+[12-Aug-2016 04:29:11 UTC] PHP Fatal error:  Call to undefined method myProject\Test\SetupTest::asserEquals() in /home/ubuntu/workspace/BankProject/phpunit/myProject/Test/SetupTest.php on line 24
+[12-Aug-2016 04:29:11 UTC] PHP Stack trace:
+[12-Aug-2016 04:29:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:0
+[12-Aug-2016 04:29:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/phpunit:47
+[12-Aug-2016 04:29:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:100
+[12-Aug-2016 04:29:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/Command.php:149
+[12-Aug-2016 04:29:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:440
+[12-Aug-2016 04:29:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 04:29:11 UTC] PHP   7. PHPUnit_Framework_TestCase->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestSuite.php:747
+[12-Aug-2016 04:29:11 UTC] PHP   8. PHPUnit_Framework_TestResult->run() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:724
+[12-Aug-2016 04:29:11 UTC] PHP   9. PHPUnit_Framework_TestCase->runBare() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestResult.php:612
+[12-Aug-2016 04:29:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runTest() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:768
+[12-Aug-2016 04:29:11 UTC] PHP  11. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
+[12-Aug-2016 04:29:11 UTC] PHP  12. myProject\Test\SetupTest->testGetExport() /home/ubuntu/workspace/BankProject/phpunit/vendor/phpunit/phpunit/src/Framework/TestCase.php:909
